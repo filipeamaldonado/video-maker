@@ -2,21 +2,23 @@
   "name": "video-maker",
   "version": "1.0.0",
   "description": "Open source project to make automated videos",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/filipeamaldonado/video-maker#readme",
+  "bugs": {
+    "url": "https://github.com/filipeamaldonado/video-maker/issues"
   },
+  "license" : "SEE LICENSE IN <LICENSE>",
+  "author": "Filipe de Andrade Maldonado",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/filipeamaldonado/video-maker.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/filipeamaldonado/video-maker/issues"
-  },
-  "homepage": "https://github.com/filipeamaldonado/video-maker#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
   "dependencies": {
-    "readline-sync": "^1.4.9"
-  }
+    "algorithmia": "^0.3.10",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.14"
+  } 
 }
