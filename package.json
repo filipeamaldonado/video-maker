@@ -12,12 +12,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/filipeamaldonado/video-maker.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },  
+  }, 
   "dependencies": {
     "algorithmia": "^0.3.10",
+    "googleapis": "^39.1.0",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
     "watson-developer-cloud": "^3.18.2"

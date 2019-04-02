@@ -6,7 +6,7 @@ File: `algorithmia.json`
 
 ```
 {
-    "apiKey": "***
+    "apiKey": "***"
 }
 ```
 
@@ -22,5 +22,16 @@ File: `watson-nlu.json`
     "iam_role_crn": "***",
     "iam_serviceid_crn": "***",
     "url": "https://***.watsonplatform.net/natural-language-understanding/api"
+}
+```
+
+## Google Search
+
+File: `google-search.json`
+
+```
+{
+    "apiKey": "***"
+    "searchEngineID": "***"
 }
 ```
