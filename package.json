@@ -6,18 +6,19 @@
   "bugs": {
     "url": "https://github.com/filipeamaldonado/video-maker/issues"
   },
-  "license" : "SEE LICENSE IN <LICENSE>",
+  "license": "SEE LICENSE IN <LICENSE>",
   "author": "Filipe de Andrade Maldonado",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/filipeamaldonado/video-maker.git"
-  }, 
+  },
   "dependencies": {
     "algorithmia": "^0.3.10",
     "googleapis": "^39.1.0",
+    "image-downloader": "^3.4.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
     "watson-developer-cloud": "^3.18.2"
-  } 
+  }
 }
